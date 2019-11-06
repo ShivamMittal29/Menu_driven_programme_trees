@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1573068339 source:c:\users\kiit\desktop\dsa project\dsa project\main.c
+	<stdio.h>
+	<stdlib.h>
+
