@@ -166,11 +166,11 @@ int main()
 {
 int choice;
 struct node* root=newnode(1);
-root->left=newnode(2);
-root->right=newnode(3);
-root->left->left=newnode(4);
-root->left->right=newnode(5);
-root->right->left=newnode(6);
+root->left=newnode(12);
+root->right=newnode(13);
+root->left->left=newnode(14);
+root->left->right=newnode(15);
+root->right->left=newnode(16);
 while(1)
 {
 
@@ -196,11 +196,11 @@ case 1:
 {
 struct node* root=NULL;
 printf("Insertion:\n");
-root=insert(root,5);
-insert(root,1);
-insert(root,4);
-insert(root,2);
-insert(root,3);
+root=insert(root,50);
+insert(root,11);
+insert(root,14);
+insert(root,12);
+insert(root,13);
 
 printf("\nInorder Traversal\n");
 printInorder(root);
@@ -225,11 +225,11 @@ break;
 case 4:
 {
 struct node* root=NULL;
-root=insert(root,5);
-insert(root,1);
-insert(root,4);
-insert(root,2);
-insert(root,3);
+root=insert(root,50);
+insert(root,11);
+insert(root,14);
+insert(root,12);
+insert(root,13);
 
 printf("Size of tree:%d",size(root));
 }
